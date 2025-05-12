@@ -5,21 +5,22 @@ Accurate prediction of photovoltaic (PV) power relies on meteorological forecast
 
 ## Directory Overview
 - **data/**: Contains scripts for data standardization of raw data
-  - `DLdate.py`: [Iterate by date and split training and testing sets]
-  - `EC_preprocess.py`: [EC data preprocessing module] 
-  - `fusion_pre.py`: [Multi-source data fusion preprocessing module, aligning EC data with station-measured data]
+  - `DLdate.py`: Iterate by date and split training and testing sets
+  - `EC_preprocess.py`: EC data preprocessing module 
+  - `fusion_pre.py`: Multi-source data fusion preprocessing module, aligning EC data with station-measured data
 
 - **Model/**: Contains proposed deep learning models
-  - `CNN_BiLSTM.py`: [CNN-BiLSTM short-term PV power forecasting model]
-  - `CNN_Transformer.py`: [CNN-Transformer ultra-short-term PV power forecasting model]
+  - `CNN_BiLSTM.py`: CNN-BiLSTM short-term PV power forecasting model
+  - `CNN_Transformer.py`: CNN-Transformer ultra-short-term PV power forecasting model
 
 - **Module/**: Contains utility modules
-  - `Time_alignment.py`: [Time series alignment tool]
-  - `data_clean.py`: [Data cleaning and standardization module]
-  - `feat_engineer.py`: [Feature engineering processing module]
+  - `Time_alignment.py`: Time series alignment tool
+  - `data_clean.py`: Data cleaning and standardization module
+  - `feat_engineer.py`: Feature engineering processing module
 
-- **main.ipynb**: [Main execution notebook for preprocessing, training, testing, and related plotting]
-- **model_saved/**: [Saves trained model weights. It is recommended to use individual in-situ dataset for training] 
-- **README.md**: [Project documentation]
+- **model_saved/**: Saves trained model weights
+
+- **main.ipynb**: Main execution notebook for preprocessing, training, testing, and related plotting
+- **README.md**: Project documentation
 
 
