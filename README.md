@@ -9,6 +9,8 @@ Accurate prediction of photovoltaic (PV) power relies on meteorological forecast
   - `EC_preprocess.py`: EC data preprocessing module 
   - `fusion_pre.py`: Multi-source data fusion preprocessing module, aligning EC data with station-measured data
 
+- **data/Output/**: Contains the actual power generation data of PV stations(Baseline)
+ 
 - **Model/**: Contains proposed deep learning models
   - `CNN_BiLSTM.py`: CNN-BiLSTM short-term PV power forecasting model
   - `CNN_Transformer.py`: CNN-Transformer ultra-short-term PV power forecasting model
